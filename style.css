@@ -1,0 +1,93 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image:
+url('https://image.flaticon.com/icons/png/512/201/201635.png');
+  background-color: #c56a03;
+  background-size: 25vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-position-y: 70vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 20vh;
+  background-color: rgba(29, 95, 54, 0.555);
+  
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 150px;
+  padding: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.instructions {
+    color: #ffffff;
+    text-align: center;
+    font-size:medium;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:rgb(255, 208, 1); 
+    padding: 6px 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: medium;
+    color: rgba(29, 95, 54, 0.555);
+}
+
+button:hover {
+    color: #ffffff;
+}
+
+.button {
+    text-align: center;
+}
+
+.resultado {
+    text-align: center;
+    color: #ffffff;
+}
+
+#notasSoma {
+    color: #ffffff;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#notasMedia {
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input {
+    width: 30%;
+    padding: 9px 12px;
+    margin: 8px 0;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+}

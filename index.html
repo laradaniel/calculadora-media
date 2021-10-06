@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel = "stylesheet" href = "style.css"/>
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <title>Imersão Dev Alura - Aula 01</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <h1 class="page-title">Calculadora de Média</h1>
+        <p class="page-subtitle">Descubra qual a sua média de nota de todas as provas!</p>
+        <img
+        src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo" alt="logo-imersao">
+    </div>
+    <a href="https://alura.com.br/" targe="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt="" class="alura-logo"></a>
+  </header>  
+  <div class="instructions">
+    <p>
+        1. Digite sua nota. <br> 2. Clique em + para adicionar mais notas. <br> 3. Clique em MÉDIA para calcular o resultado!
+    </p>
+    <input type="number" id="nota" placeholder="Insira sua nota" onfocus="clearField(this)">
+  </div>
+  <div class="button">
+      <button type="button" onclick="somaNotas()">+</button>
+      <button type="button" onclick="mediaNotas()">Média</button>
+      <button type="button" onclick="limparMedia()">Limpar</button>
+  </div>
+  <div class="resultado">
+      <p>Notas: <p id="notasSoma"></p></p>
+      <p>Sua média é: <p id="notasMedia"></p></p>
+  </div>
+</body>
+</html>
